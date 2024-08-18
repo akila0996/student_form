@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="image">
+    <h1>
+        STUDENT REGISTRATION
+    </h1>
+    <p>Please fill out the form below to register as a student</p>
+    <form action="response.html" method="GET">
+        <fieldset>
+        <legend>FILL THE FORM:</legend>
+        <div>
+        <label for="name">FULL NAME:</label>
+        <input type="text" name="fullname" id="name" placeholder="Enter Your Full Name" required>
+        </div>
+        <div>
+        <label for="email">EMAIL ID:</label>
+        <input type="email" name="mail" id="email" placeholder="Example@gmail.com" required>
+        </div>
+        <div>
+        <label for="date">DATE OF BIRTH:</label>
+        <input name="date" type="date" id="dte"  required>
+        </div>
+        <div>
+            <label for="contact">CONTACT NUMBER:</label>
+            <input type="tel" name="contact" id="contact" placeholder="504-569-533" required>
+        </div>
+        <div>
+            <label>GENDER:</label>
+        
+            <input type="radio" id="gender" name="gender" value="Male">
+            <label>Male</label>  
+            <input type="radio" id="gender" name="gender" value="Female">
+            <label>Female</label>
+            <input type="radio" id="gender" name="gender" value="other">
+            <label>Other</label>
+        </div>
+        <div>
+            <label>COURSES INTERESTED: </label>
+            <input type="checkbox" name="html" id="box">
+            <label>HTML</label>
+            <input type="checkbox" name="css" id="box">
+            <label>CSS</label>
+            <input type="checkbox" name="javascript" id="box">
+            <label>Javascript</label>
+            <input type="checkbox" name="python" id="box">
+            <label>Python</label>
+        </div>
+
+        <div>
+            <label for="message">COMMENTS:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="summary..."></textarea>
+        </div>
+
+        <div class="last">
+        <button type="submit" id="sub">Register</button>
+        <button type="reset" id="res">Reset</button>
+        </div>
+    </fieldset>
+    </form>
+    <br> <br>
+<table border="2" cellspacing="2">
+    <thead>
+        <tr>
+            <th>student ID</th>
+            <th>Full name</th>
+            <th>Email</th>
+            <th>Date of birth</th>
+            <th>Phone number</th>
+            <th>Gender</th>
+            <th>Courses interested</th>
+        </tr>
+    <tbody>
+        <tr>
+            <td>001</td>
+            <td>Selvi</td>
+            <td>selvi@gmail.com</td>
+            <td>09/12/1996</td>
+            <td>564569533</td>
+            <td>Female</td>
+            <td>HTML,CSS</td>
+         </tr>
+
+        <tr>
+           <td>002</td>
+           <td>Akila</td>
+           <td>akila@gmail.com</td>
+           <td>05/09/2000</td>
+           <td>566952033</td>
+           <td>Female</td>
+           <td>Python</td>
+        </tr>
+
+        
+         <tr>
+            <td>003</td>
+            <td>ram</td>
+            <td>ram@gmail.com</td>
+            <td>29/02/2006</td>
+            <td>563085133</td>
+            <td>male</td>
+            <td>javascript</td>
+         </tr>
+    </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </thead>
+</table>
+
+</body>
+</html>
